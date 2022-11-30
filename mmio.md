@@ -17,10 +17,16 @@
 
 ## GPIO Registers
 
-| Name       | offset |
-| ---------- | ------ |
-| enable?    | 0x00   |
-| direction? | 0x10   |
-| output     | 0x20   |
-| input      | 0x30   |
+| Name            | offset |
+| --------------- | ------ |
+| enable?         | 0x00   |
+| enable clear    | 0x04   |
+| enable set      | 0x08   |
+| direction?      | 0x10   |
+| direction clear | 0x14   |
+| direction set   | 0x18   |
+| output          | 0x20   |
+| output clear    | 0x24   |
+| output set      | 0x28   |
+| input           | 0x30   |
 
