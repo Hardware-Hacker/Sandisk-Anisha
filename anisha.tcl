@@ -1,4 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+source [find cpu/arc/v2.tcl]
+
 adapter speed 1000
 transport select jtag
 
