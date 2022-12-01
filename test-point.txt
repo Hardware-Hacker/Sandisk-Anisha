@@ -1,0 +1,6 @@
+1: 1v8
+2: gnd
+3: tck
+4: tdo
+5: tdi
+6: tms
